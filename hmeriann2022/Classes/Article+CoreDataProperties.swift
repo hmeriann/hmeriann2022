@@ -21,18 +21,20 @@ extension Article {
     @NSManaged public var title: String?
     @NSManaged public var content: String?
     @NSManaged public var language: String?
-    @NSManaged public var image: NSData?
-    @NSManaged public var creation_date: NSDate?
-    @NSManaged public var modification_date: NSDate?
+    @NSManaged public var image: Data?
+    @NSManaged public var creation_date: Date?
+    @NSManaged public var modification_date: Date?
 
     public override var description: String {
         """
+        
             title: "\(title ?? "No title")"
             content: "\(content ?? "not initialized")"
             language: "\(language!)"
             image: "\(image?.description ?? "not initialized")"
             creationDate: "\(creation_date!)"
             modificationDate: "\(modification_date!)"
+        
         """
     }
 }
