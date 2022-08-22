@@ -1,0 +1,16 @@
+PODS:
+  - hmeriann2022 (0.1.0)
+
+DEPENDENCIES:
+  - hmeriann2022 (from `../`)
+
+EXTERNAL SOURCES:
+  hmeriann2022:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  hmeriann2022: 3bee8638eef7486233d49f3eec825d32e57d8bd7
+
+PODFILE CHECKSUM: acd08109c806f9a896830070cedcb411440bb20e
+
+COCOAPODS: 1.11.3

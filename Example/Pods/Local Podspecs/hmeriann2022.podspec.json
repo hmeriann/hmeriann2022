@@ -1,0 +1,22 @@
+{
+  "name": "hmeriann2022",
+  "version": "0.1.0",
+  "summary": "A short description of hmeriann2022.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/78214685/hmeriann2022",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "78214685": "hmeriann@student.21-school.ru"
+  },
+  "source": {
+    "git": "https://github.com/78214685/hmeriann2022.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "hmeriann2022/Classes/**/*"
+}

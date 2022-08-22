@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'hmeriann2022_Example' do
+  pod 'hmeriann2022', :path => '../'
+
+  target 'hmeriann2022_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

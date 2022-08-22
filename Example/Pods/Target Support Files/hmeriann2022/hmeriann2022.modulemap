@@ -1,0 +1,6 @@
+framework module hmeriann2022 {
+  umbrella header "hmeriann2022-umbrella.h"
+
+  export *
+  module * { export * }
+}
