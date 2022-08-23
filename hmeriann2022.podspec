@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/hmeriann/hmeriann2022'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '78214685' => 'hmeriann@student.21-school.ru' }
+  s.author           = { 'hmeriann' => 'hmeriann@student.21-school.ru' }
   s.source           = { :git => 'https://github.com/hmeriann/hmeriann2022.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
 
