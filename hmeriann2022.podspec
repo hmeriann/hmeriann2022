@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hmeriann' => 'hmeriann@student.21-school.ru' }
   s.source           = { :git => 'https://github.com/hmeriann/hmeriann2022.git', :tag => s.version.to_s }
+  s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'hmeriann2022/Classes/**/*'
